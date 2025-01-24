@@ -33,12 +33,6 @@ Parler-TTS has light-weight dependencies and can be installed in one line:
 pip install git+https://github.com/huggingface/parler-tts.git
 ```
 
-Apple Silicon users will need to run a follow-up command to make use the nightly PyTorch (2.4) build for bfloat16 support:
-
-```sh
-pip3 install --pre torch torchaudio --index-url https://download.pytorch.org/whl/nightly/cpu
-```
-
 ## Usage
 
 > [!TIP]
